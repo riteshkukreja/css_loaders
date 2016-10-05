@@ -1,24 +1,24 @@
 @keyframes rotate {
 	0% {
-			-webkit-transform: rotateZ(0deg);
+			transform: rotateZ(0deg);
 		},
 	50% {
-			-webkit-transform: rotateZ(180deg);
+			transform: rotateZ(180deg);
 		},
 	100% {
-			-webkit-transform: rotateZ(360deg);
-	}
+			transform: rotateZ(360deg);
+		}
 }
 
 @-webkit-keyframes rotate {
 	0% {
-			-webkit-transform: rotateZ(0deg);
+			transform: rotateZ(0deg);
 		},
 	50% {
-			-webkit-transform: rotateZ(180deg);
+			transform: rotateZ(180deg);
 		},
 	100% {
-			-webkit-transform: rotateZ(360deg);
+			transform: rotateZ(360deg);
 	}
 }
 
@@ -89,7 +89,7 @@ body {
 
 .awesome {
 	display: inline;
-	-webkit-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
 	animation:rotate 1s linear infinite;
 }
 
